@@ -1,9 +1,123 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
 <body>
-  <h1>Kat Moria</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <header>
+        <h1>The Website Design Guide</h1>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#colors">Colors</a></li>
+                <li><a href="#fonts">Fonts</a></li>
+                <li><a href="#text-styles">Text Styles</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!--COLORS Section-->
+
+    <div class="main-section colors" id="colors">
+        <div class="item palette"><h2>Color Palette</h2></div>
+            <div class="" id="color-1">
+                <h3 class="color-name bold">Forest Green</h3>
+                <p class="hex">#008000</p>
+                <p class="function">Main</p>
+            </div>
+            <div class="" id="color-2">
+                <h3 class="color-name bold">Hot Pink</h3>
+                <p class="hex">#f70482</p>
+                <p class="function">Secondary</p>
+            </div>
+            <div class="" id="color-3">
+                <h3 class="color-name bold">Sky Blue</h3>
+                <p class="hex">#3d63ed</p>
+                <p class="function">Accent #1</p>
+            </div>
+            <div class="" id="color-4">
+                <h3 class="color-name bold">Corn Yellow</h3>
+                <p class="hex">#f9e366</p>
+                <p class="function">Accent #2</p>
+            </div>
+    </div>
+
+<!--FONTS Section-->
+
+    <div class="main-section fonts" id="fonts">
+        <div class="container">
+            <div class="font-main">
+                <div>
+                    <h5>Font Examples</h5>
+                </div>
+                <div class="divider"></div>
+            </div>
+            <div class="font-body">
+                <div class="grid">
+                    <div class="font-1">
+                        <div class="font-name merriweather">Merriweather</div>
+                        <div class="font-ex plain merriweather">The quick brown fox jumps over the lazy dog.</div>
+                        <div class="font-ex bold merriweather">The quick brown fox jumps over the lazy dog.</div>
+                        <div class="font-ex italic merriweather">The quick brown fox jumps over the lazy dog.</div>
+                    </div>
+                    <div class="font-2">
+                        <div class="font-name roboto">Roboto Mono</div>
+                        <div class="font-ex plain roboto">The quick brown fox jumps over the lazy dog.</div>
+                        <div class="font-ex bold roboto">The quick brown fox jumps over the lazy dog.</div>
+                        <div class="font-ex italic roboto">The quick brown fox jumps over the lazy dog.</div>
+                    </div>
+                    <div class="font-3">
+                        <div class="font-name raleway">Raleway</div>
+                        <div class="font-ex plain raleway">The quick brown fox jumps over the lazy dog.</div>
+                        <div class="font-ex bold raleway">The quick brown fox jumps over the lazy dog.</div>
+                        <div class="font-ex italic raleway">The quick brown fox jumps over the lazy dog.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="font-description">
+                <p class="italic">You can pick and choose to customize whatever font would fit your aesthetic the best!</p>
+            </div>
+        </div>
+    </div>
+
+<!--TEXT STYLES Section-->
+
+    <div class="main-section text-styles" id="text-styles">
+        <div class="style-main">
+            <h5>Text Styles</h5>
+        </div>
+        <div class="style-body">
+            <div class="headings">
+                <h2 class="raleway">H1: Main Page Heading</h6>
+                <ul>
+                    <li>Font-weight: 700 (bold)</li>
+                    <li>Font-size: 26px</li>
+                    <li>Font-family: Raleway</li>
+                </ul>
+            </div>
+            <div class="headings">
+                <h3 class="merriweather">H2: Subheading</h3>
+                <ul>
+                    <li>Font-weight: 500</li>
+                    <li>Font-size: 18px</li>
+                    <li>Font-family: Merriweather</li>
+                </ul>
+            </div>
+            <div class="headings">
+                <h4 class="roboto">P: Paragraph Text</h4>
+                <ul>
+                    <li>Font-weight: 400 (regular)</li>
+                    <li>Font-size: 14px</li>
+                    <li>Font-family: Roboto</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
- 
 </html>
