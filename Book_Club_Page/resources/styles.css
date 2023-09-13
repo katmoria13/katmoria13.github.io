@@ -95,7 +95,7 @@ div.logo {
 #page-hero {
     width: 100%;
     height: auto;
-    background-image: url(/Users/kathleenmoriarty/Code/Projects/Book_Club_Page/resources/images/page-hero2.jpeg);
+    background-image: url(./resources/images/page-hero2.jpeg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -264,7 +264,7 @@ div.logo {
 #topics {
     width: 100%;
     height: auto;
-    background-image: url(/Users/kathleenmoriarty/Code/Projects/Book_Club_Page/resources/images/parchment.jpeg);
+    background-image: url(./resources/images/parchment.jpeg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
