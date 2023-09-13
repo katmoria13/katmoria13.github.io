@@ -1,0 +1,464 @@
+/*UNIVERSAL STYLES*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: 'Merriweather', serif;
+    /*border: 1px solid red;*/
+}
+
+/*HEADER*/
+
+header {
+    height: auto;
+    width: 100%;
+    background-color: #7B241C;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 2rem;
+    z-index: 2;
+}
+
+header .content {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+div.logo,
+.nav-bar ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+div.logo {
+    flex-shrink: 1;
+}
+
+.nav-bar ul {
+    flex-shrink: 2;
+}
+
+.logo img {
+    width: 3.5rem;
+    height: auto;
+}
+
+.logo h2 {
+    font-size: 2.5rem;
+    font-family: 'Princess Sofia', cursive;
+    color: #D8B98C;
+}
+
+.nav-bar li {
+    list-style: none;
+    padding-left: 4.5rem;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #D8B98C;
+    font-size: 1.8rem;
+}
+
+.nav-bar a:hover {
+    opacity: 0.7;
+}
+
+.nav-bar button a {
+    font-family: 'Princess Sofia', cursive;
+}
+
+.nav-bar button {
+    background-color: rgba(123, 36, 28, 0.75);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #D8B98C;
+}
+
+.nav-bar button:hover {
+    padding: 0.7rem 1.1rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/*PAGE HERO*/
+
+#page-hero {
+    width: 100%;
+    height: auto;
+    background-image: url(/resources/page-hero2.jpeg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+}
+
+#page-hero div.content {
+    margin: 9rem 0 4rem 0;
+}
+
+#page-hero h2 {
+    padding: 2rem;
+    font-size: 2.8rem;
+    color: #ecdcc6;
+    text-shadow: .1rem .1rem 0.2rem #7B241C, 0 0 1rem black, 0 0 0.2rem black;
+}
+
+#page-hero h1 {
+    padding: 2rem;
+    font-size: 4.5rem;
+    font-family: 'Princess Sofia', cursive;
+    color: #ecdcc6;
+    text-shadow: .5rem .5rem 0.5rem #7B241C, 0 0 1.5rem black, 0 0 0.5rem black;
+}
+
+#page-hero button {
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    background-color: rgba(123, 36, 28);
+    color: #ecdcc6;
+    border: 1px solid #D8B98C;
+}
+
+#page-hero button:hover {
+    font-size: 2.2rem;
+    padding: 1.2rem;
+    opacity: 0.7;
+    cursor: pointer;
+}
+/*ABOUT*/
+
+#about {
+    width: 100%;
+    height: auto;
+    background-color: #D8B98C;
+    text-align: center;
+}
+
+#about h4 {
+    font-size: 2.2rem;
+    padding: 2rem;
+    font-family: 'Princess Sofia', cursive;
+}
+
+#about .content {
+    max-width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .content div {
+    width: 50%;
+    height: auto;
+    padding: 2rem 7rem;
+    margin-bottom: 2rem;
+}
+
+#about h3 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Princess Sofia', cursive;
+}
+
+#about p {
+    font-size: 1.8rem;
+}
+
+#about img {
+    width: 75%;
+}
+
+/*TESTIMONIALS*/
+
+#testimonials {
+    width: 100%;
+    height: auto;
+    background-color: rgba(123, 36, 28, 0.9);
+    color:#D8B98C;
+}
+
+#testimonials .content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#testimonials .quote-1,
+#testimonials .quote-2 {
+    width: 50%;
+    height: auto;
+    padding: 3.5rem 5rem;
+}
+
+#testimonials .quote-2 {
+    border-left: 2px solid #D8B98C;
+}
+
+#testimonials p {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+
+#testimonials h5 {
+    font-size: 2rem;
+    padding: 1.5rem;
+    font-style: italic;
+}
+
+/*SCHEDULE & LOCATION*/
+
+#meetings {
+    width: 100%;
+    height: auto;
+    background-color: rgba(123, 36, 28, 0.75);
+    color: #D8B98C;
+}
+
+#meetings .content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#meetings .location,
+#meetings .time {
+    width: 50%;
+    height: auto;
+}
+
+#meetings h3 {
+    font-weight: bold;
+    font-size: 2.2rem;
+    padding-bottom: 1.5rem;
+    font-family: 'Princess Sofia', cursive;
+}
+
+#meetings p {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+/*BOOKS OF THE WEEK*/
+
+#topics {
+    width: 100%;
+    height: auto;
+    background-image: url(/resources/parchment.jpeg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #7B241C;
+}
+
+#topics .content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+div.book1,
+div.book2 {
+    width: 18%;
+}
+
+#topics img {
+    width: 100%;
+}
+
+#topics h3 {
+    font-size: 2.8rem;
+    font-family: 'Princess Sofia', cursive;
+}
+
+#topics h4 {
+    font-size: 1.8rem;
+    padding-top: 1rem;
+}
+
+#topics h4:hover {
+    opacity: 0.8;
+}
+#topics h5 {
+    font-size: 1.6rem;
+    font-style: italic;
+    padding-top: 0.8rem;
+}
+
+#topics p {
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+#topics a {
+    text-decoration: none;
+    color: #7B241C;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #7B241C;
+}
+
+footer .content {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+footer h3,
+footer p {
+    font-size: 1.5rem;
+    font-family: 'Princess Sofia', cursive;
+    color: #D8B98C;
+}
+
+footer .content ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .content li {
+    list-style: none;
+    padding-left: 4.5rem;
+}
+
+footer .content a {
+    text-decoration: none;
+}
+
+footer img {
+    width: 2.5rem;
+    height: auto;
+}
+
+@media only screen and (max-width: 850px) {
+    .logo h2 {
+        font-size: 2rem;
+    }
+
+    .nav-bar li {
+        padding-left: 3rem;
+    }
+    .nav-bar a {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .logo img {
+        width: 2.5rem;
+    }
+
+    .logo h2 {
+        font-size: 1.6rem;
+    }
+
+    .nav-bar ul {
+        display: none;
+    }
+    
+    #about .content div {
+        width: 100vw;
+    }
+
+    #about p {
+        font-size: 1.4rem;
+    }
+
+    #about .portrait {
+        display: none;
+    }
+
+    #testimonials .quote-1,
+    #testimonials .quote-2 {
+        width: 100%;
+        height: auto;
+        padding: 3.5rem 1.5rem;
+    }
+
+    #testimonials .quote-2 {
+        border-left: none;
+    }
+
+    #testimonials p,
+    #testimonials h5 {
+        font-size: 1.4rem;
+    }
+
+    #meetings .location,
+    #meetings .time {
+        width: 100%;
+    }
+
+    #meetings h3,
+    #meetings p {
+        font-size: 1.4rem;
+    }
+
+    div.book1,
+    div.book2 {
+        width: 50vw;
+    }
+
+    div.weekly {
+        margin: 10%;
+        padding: 1rem;
+        border: 1px solid #7B241C;
+    }
+
+    #topics h3 {
+        font-size: 2rem;
+    }
+
+    #topics h4,
+    #topics h5 {
+        font-size: 1.4rem;
+    }
+
+    footer h3, 
+    footer p {
+        font-size: 1rem;
+    }
+
+    footer .content li {
+        padding-left: 0.5rem;
+    }
+
+    footer img {
+        width: 1rem;
+    }
+}
